@@ -92,4 +92,33 @@ section .btn:hover{
     transition: 0.5s ease-in-out;
 }
 
+@media (max-width: 600px) {
+    nav {
+flex-direction: column;
+    }
 
+    body {
+        /* background-repeat: no-repeat; */
+        object-fit: cover;
+        height: 110vh;
+    }
+
+    section {
+     margin-top: 70px;
+    }
+    
+    section .heading {
+        font-size: 40px;
+        color: #fff;
+        margin: 10px;
+        letter-spacing: 1px;
+    }
+    
+    section .paragraph {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+}
